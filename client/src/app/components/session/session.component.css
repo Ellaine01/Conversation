@@ -1,0 +1,33 @@
+.container 
+{
+    max-width: 80%;
+    margin: auto;
+}
+
+.panel-heading
+{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+.message-bubble 
+{
+    padding: 0px 10px 0px 10px;
+}
+
+.message-bubble:nth-child(even) { background-color: #F5F5F5; }
+
+.message-bubble > *
+{
+    padding-left: 10px;    
+}
+
+.panel-body { padding: 0px; }
+
+.panel-heading { background-color: #3d6da7 !important; color: white !important; }
+
+

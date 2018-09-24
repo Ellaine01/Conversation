@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                CHATTER
+            </div>
+
+            <div class="panel-body">
+                <h3> Hi! Please enter your username. </h3>
+
+            <div class="panel-footer">
+                
+                <div class="input-group">
+                    <form #form="ngForm" (ngSubmit)="login()">
+                        
+                        <input type="text" class="username" name="username" placeholder="User Name" [(ngModel)]="username">
+                        <button type="submit">Go</button>
+                    </form>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

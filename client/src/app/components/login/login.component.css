@@ -1,0 +1,19 @@
+.container 
+{
+    max-width: 80%;
+    margin: auto;
+}
+
+.panel-heading
+{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+.panel-body { padding: 0px; }
+
+.panel-heading { background-color: #3d6da7 !important; color: white !important; }
